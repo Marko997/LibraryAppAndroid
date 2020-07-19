@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:title="Korisnicke opcije">
+        <menu>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/computer"
+        android:title="Pocetna" />
+
+    <item
+        android:id="@+id/books"
+        android:icon="@drawable/book"
+        android:title="Pregled knjiga" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Pretraga" />
+        </menu>
+    </item>
+    <item  android:title="Administratorske opcije">
+        <menu>
+            <item android:title="Dodaj knjigu"
+                android:icon = "@drawable/knowledge"
+                android:id="@+id/addBook"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Izloguj se" />
+
+</menu>
